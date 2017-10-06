@@ -8,7 +8,7 @@ html, body, header, main, footer, div, span, h1, h2, h3, h4, h5, h6, p, a, table
 
 html
 {
-	background-image: url("Gradient.png");
+	background-image: url("images/Gradient.png");
 	background-size: cover;
 }
 
