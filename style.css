@@ -1,50 +1,82 @@
-body {
-	margin: 0px;
-	font-family: "Helvetica", "Arial";
-	line-height: 1.5;
+html, body, header, main, footer, div, span, h1, h2, h3, h4, h5, h6, p, a, table
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	line-height: 1;
 }
 
-header {
-	text-align: center;
+html
+{
+	background-image: url("Gradient.png");
+	background-size: cover;
 }
 
-main {
-	max-width: 800px;
-	margin: auto;
-	padding: 0px 20px;
+div.about
+{
+	position: relative;
+	height: 900px;
 }
 
-p {
-	color: #666666;
+img.portrait
+{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	border: 10px solid white;
+	width: 30%;
 }
 
-.faded {
-	opacity: 0.7;
-}
-
-img {
-	max-width: 100%;
-}
-
-h1 {
-	border-bottom 5px solid black;
-}
-
-h2 {
-	color: purple;
-}
-
-footer {
+h1.greeting
+{
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	font-size: 45px;
+	font-family: Helvetica;
 	color: white;
-	background-color: black;
-	padding: 20px;
-	text-align: center;
-	margin-top: 60px;
 }
 
-@media (max-width: 600px) {
-	body {
-		background-color: purple;
-		color: white;
-	}
+h2.welcome
+{
+	position: absolute;
+	top: 43%;
+	left: 53%;
+	width: 35%;
+	line-height: 1.4;
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica;
+	color: white;
+}
+
+p.profile
+{
+	position: absolute;
+	top: 50%;
+	left: 53%;
+	width: 35%;
+	line-height: 1.4;
+	text-align: center;
+	font-size: 20px;
+	font-family: Helvetica;
+	color: white;
+}
+
+footer
+{
+	position: relative;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+div.contact_name
+{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	font-size: 15px;
+	font-family: Helvetica;
+	color: white;
 }
